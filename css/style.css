@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imgs/café.jpg);
+    background-color: #8B4513;
 }
 
 
@@ -12,15 +12,19 @@ body{
 .principal{
     display: flex;
     justify-content: center;
+    padding: 180px;
 }
 
 .principal a{
     text-decoration: none;
 }
 
-.texto{
+.container{
     color: white;
-    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
 }
 
 .rodape{
@@ -29,6 +33,10 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
+    /* Rodapé no final da página */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .rodape h6{
